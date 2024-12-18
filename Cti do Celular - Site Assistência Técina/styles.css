@@ -1,0 +1,32 @@
+/*reset padrão*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/********************************************************************************************************************************************/
+
+body{
+    background-color: #f6f6f6;
+    font-family: "Montserrat", serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
