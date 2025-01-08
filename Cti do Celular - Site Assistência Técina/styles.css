@@ -65,6 +65,72 @@ ul{
 .banner-inicial{
     display: flex;
     background-color: #141212;
+    height: 480px;
+    overflow: hidden;
 }
 
+.conteudo-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-banner-text{
+    text-align: center;
+    width: 400px;
+}
+.conteudo-banner-text h1{
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: -3px;
+    line-height: 60px;
+    color: #ebebeb;
+    padding-bottom: 10px;
+}
+.conteudo-banner-text h3{
+    width: 290px;
+    font-size: 18px;
+    color: #ebebeb;
+    background-color: #737373;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.conteudo-banner-text p{
+    color: #ebebeb;
+    font-size: 20px;
+}
+.conteudo-banner-text span{
+    font-size: 12px;
+    font-weight: 600;
+    color: #5271ff;
+    margin-bottom: 5px;
+}
+
+.conteudo-banner-botoes{
+    margin: 10px;
+    align-items: center;
+}
+.botao-verde-branco{
+    color: #ebebeb;
+    font-weight: 800;
+    font-size: 14px;
+    font-family: "Montserrat", serif;
+    background-color: #5ec57e;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+}
+.botao-azul-branco{
+    color: #ebebeb;
+    font-weight: 800;
+    font-size: 14px;
+    font-family: "Montserrat", serif;
+    background-color: #5271ff;
+    padding: 20px;
+    margin-right: 5px;
+    border-radius: 30px;
+    border: none;
+}
 /********************************************************************************************************************************************/
