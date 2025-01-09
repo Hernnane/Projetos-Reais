@@ -80,7 +80,7 @@ ul{
 }
 .conteudo-banner-text{
     text-align: center;
-    width: 800px;
+    width: 500px;
 }
 .conteudo-banner-text h1{
     font-size: 80px;
@@ -92,7 +92,7 @@ ul{
 }
 .conteudo-banner-text h3{
     display: inline-block;
-    width: 290px;
+    width: 350px;
     font-size: 18px;
     color: #ebebeb;
     background-color: #737373;
@@ -102,9 +102,8 @@ ul{
     margin-bottom: 5px;
 }
 .conteudo-banner-text p{
-    display: inline-block;
     color: #ebebeb;
-    font-size: 20px;
+    font-size: 22px;
 }
 .conteudo-banner-text span{
     display: block;
@@ -237,9 +236,21 @@ ul{
     height: 300px;
 }
 
+.servicos-cta{
+    color: #EBEBEB;
+    text-align: center;
+}
+
 /********************************************************************************************************************************************/
 
 /*estilizando seção: nossas unidades*/
+
+.nossas-unidades h2{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    color: #5271ff;
+}
 
 .unidades-individual{
     display: flex;
