@@ -47,6 +47,12 @@ header{
     color: #737373;
     text-decoration: none;
 }
+.menu-items a:hover{
+    color: #141212;
+    font-size: 12px;
+    font-weight: 600;
+}
+
 .menu-items span{
     color: #737373;
     font-weight: lighter;
@@ -250,15 +256,74 @@ ul{
     font-weight: 800;
     text-align: center;
     color: #5271ff;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.unidades-individual{
+.unidades{
     display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
-.conteudo-direito-texto > p > span > img{
-    max-width: 20px;
-    max-height: 20px;
-    width: auto;
-    height: auto;
+.unidades-individual-fundo{
+    background-color: #737373;
+    margin-bottom: 100px;
+
+}
+
+.unidades-individual-img-bg-morumbi{
+    display: flex;
+    justify-content: center;
+    background-image: url(img/morumbi.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+.unidades-individual-img-bg-parque{
+    display: flex;
+    justify-content: center;
+    background-image: url(img/parque-da-cidade.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+.unidades-individual-img-bg-nacoes{
+    display: flex;
+    justify-content: center;
+    background-image: url(img/nacoes-unidas.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.unidades-individual-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#EBEBEB ;
+    font-size: 22px;
 }
