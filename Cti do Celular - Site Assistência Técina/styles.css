@@ -241,7 +241,7 @@ ul{
     flex-wrap: wrap;
     justify-content: space-evenly;
     position: relative;
-    top: -330px;
+    top: -280px;
     gap: 30px;
     margin-top: 30px;
 }
@@ -268,8 +268,29 @@ ul{
 }
 
 .servicos-cta{
+    width: 30%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 30px;
+    position: relative;
+    top: -180px;
+}
+
+.servicos-cta-conteudo{
     color: #EBEBEB;
     text-align: center;
+}
+.servicos-cta-conteudo p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #5ec57e;
+}
+.servicos-cta-conteudo h4{
+    font-size: 28px;
+}
+.servicos-cta-conteudo button{
+    margin-top: 10px;
+    font-size: 22px;
 }
 
 /********************************************************************************************************************************************/
@@ -381,9 +402,26 @@ ul{
     color: #5ec57e;
 }
 
-.nossas-unidades-conteudo-text i{
+.nossas-unidades-conteudo-text i,span{
     color: #5ec57e;
     font-size: 24px;
+}
+
+.nossas-unidades-conteudo-text p{
+    position: relative;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+.nossas-unidades-conteudo-text::after{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 50px;
+    background-color: #141212;
 }
 
 .nossas-unidades-conteudo{
@@ -392,3 +430,53 @@ ul{
     margin-bottom: 60px;
 }
 
+/********************************************************************************************************************************************/
+
+/*estilização da seção: perguntas frequentes*/
+
+.perguntas-frequentes{
+    width: 95%;
+    margin: 0 auto;
+    background-color: #737373;
+    border-radius: 30px;
+    margin-bottom: 60px;
+    padding: 30px;
+}
+
+.perguntas-frequentes h2{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    color: #EBEBEB;
+    padding-bottom: 30px;
+}
+
+.perguntas-individual{
+    background-color: #141212;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    text-align: center;
+
+}
+.perguntas-individual h3{
+    color: #EBEBEB;
+    font-weight:normal;
+    font-size: 16px;
+}
+
+.respostas{
+    padding: 10px;
+}
+
+.respostas p{
+    color: #EBEBEB;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.respostas span{
+    color: #5271ff;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
