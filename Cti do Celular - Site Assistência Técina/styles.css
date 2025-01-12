@@ -303,7 +303,7 @@ ul{
     text-align: center;
     color: #5271ff;
     padding-top: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .unidades{
@@ -314,7 +314,7 @@ ul{
 
 .unidades-individual-fundo{
     background-color: #737373;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     border-radius: 30px;
 
 }
@@ -479,4 +479,49 @@ ul{
     font-size: 14px;
     font-weight: bold;
     font-style: italic;
+}
+
+/********************************************************************************************************************************************/
+
+/*estilização da seção: avalicações*/
+
+.avaliacoes-de-usuarios{
+    background-color: #5271ff;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.avaliacoes-de-usuarios h2{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    color: #EBEBEB;
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+
+.avaliacoes-nota h1{
+    font-size: 120px;
+    color: #EBEBEB;
+    font-weight: lighter;
+}
+
+.avaliacoes-nota p{
+    color: #EBEBEB;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+.avaliacoes-estrelas-icon{
+    background-color: #EBEBEB;
+    padding: 10px;
+    border-radius: 30px;
+    width: 250px;
+    margin: 0 auto;
+}
+.avaliacoes-estrelas-icon i{
+    color: #ECC440;
+    font-size: 30px;
 }
