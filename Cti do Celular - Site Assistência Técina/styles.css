@@ -485,12 +485,19 @@ ul{
 
 /*estilização da seção: avalicações*/
 
+.avaliacoes{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
 .avaliacoes-de-usuarios{
     background-color: #5271ff;
     width: 100%;
-    height: 600px;
     text-align: center;
     margin-bottom: 60px;
+    padding: 30px;
 }
 
 .avaliacoes-de-usuarios h2{
@@ -498,8 +505,6 @@ ul{
     font-weight: 800;
     text-align: center;
     color: #EBEBEB;
-    padding-bottom: 30px;
-    padding-top: 60px;
 }
 
 .avaliacoes-nota h1{
@@ -524,4 +529,36 @@ ul{
 .avaliacoes-estrelas-icon i{
     color: #ECC440;
     font-size: 30px;
+}
+
+.avaliacoes-individual{
+    background-color: #EBEBEB;
+    border-radius: 30px;
+    width: 300px;
+}
+
+.avaliacoes-individual-comentario{
+    border-bottom: 1px solid #737373;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 20px;
+}
+
+.avaliacoes-individual-perfil{
+    background-color: #141212;
+    padding: 10px;
+    border-radius: 30px 30px 0 0;
+}
+
+.avaliacoes-individual-perfil h4{
+    color: #EBEBEB;
+}
+
+.avaliacoes-individual-perfil i{
+    color: #ECC440;
+}
+
+.avaliacoes-individual-google-icone i{
+    color: red;
+    padding: 10px;
 }
