@@ -83,7 +83,7 @@ header{
     font-weight: lighter;
 }
 
-ul{
+.menu ul{
     display: flex;
     list-style-type: none;
     gap: 20px;
@@ -485,13 +485,6 @@ ul{
 
 /*estilização da seção: avalicações*/
 
-.avaliacoes{
-    display: flex;
-    gap: 20px;
-    justify-content: space-evenly;
-    padding-top: 30px;
-}
-
 .avaliacoes-de-usuarios{
     background-color: #5271ff;
     width: 100%;
@@ -505,6 +498,16 @@ ul{
     font-weight: 800;
     text-align: center;
     color: #EBEBEB;
+}
+
+.avaliacoes-apresentacao{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.avaliacoes-nota{
+    margin-right: 30px;
 }
 
 .avaliacoes-nota h1{
@@ -531,10 +534,45 @@ ul{
     font-size: 30px;
 }
 
+.avaliacoes-video-descricao{
+    text-align: center;
+    color: #EBEBEB;
+    background-color: #141212;
+    width: 99%;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.avaliacoes-video-descricao h4{
+    font-weight: normal;
+}
+
+.avaliacoes-video-descricao h5{
+    font-weight: lighter;
+    color: #5ec57e;
+}
+
+.avaliacoes-video{
+    margin-right: 30px;
+    padding: 20px 0 0 0;
+    text-align: left;
+}
+
+.avaliacoes-motivacoes{
+    text-align: left;
+}
+
+.avaliacoes{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
 .avaliacoes-individual{
     background-color: #EBEBEB;
     border-radius: 30px;
-    width: 300px;
+    width: 250px;
 }
 
 .avaliacoes-individual-comentario{
