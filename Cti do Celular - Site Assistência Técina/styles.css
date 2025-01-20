@@ -74,7 +74,6 @@ header{
 }
 .menu-items a:hover{
     color: #141212;
-    font-size: 12px;
     font-weight: 600;
 }
 
@@ -185,6 +184,7 @@ header{
     font-size: 32px;
     font-weight: 800;
     color: #5271ff;
+    margin-bottom: 60px;
 }
 
 .marcas-atendidas img{
@@ -489,6 +489,7 @@ header{
     width: 100%;
     text-align: center;
     padding: 30px;
+    padding-bottom: 60px;
 }
 
 .avaliacoes-de-usuarios h2{
@@ -641,15 +642,29 @@ video{
 .orcamento{
     width: 100%;
     margin-bottom: 30px;
+    font-family: "Lato", serif;
 }
 
 .orcamento h2{
+    font-family: "Montserrat", serif;
     font-size: 32px;
     font-weight: 800;
     text-align: center;
     color: #5ec57e;
     padding-top: 60px;
     margin-bottom: 30px;
+}
+
+.orcamento button{
+    font-family: "Montserrat", serif;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #5ec57e;
+    color: #EBEBEB;
 }
 
 .formulario{
@@ -663,10 +678,14 @@ video{
     display: block;
     color: #EBEBEB;
     font-size: 14px;
+    font-weight: 600;
     margin-bottom: 5px;
 }
 
 .formulario input{
+    font-family: "Montserrat", serif;
+    font-size: 12px;
+    font-style: italic;
     width: 100%;
     border-radius: 10px;
     border: none;
@@ -675,6 +694,10 @@ video{
 }
 
 .formulario textarea{
+    font-family: "Montserrat", serif;
+    font-size: 12px;
+    font-style: italic;
+    resize: vertical;
     width: 100%;
     border-radius: 10px;
     border: none;
@@ -683,6 +706,9 @@ video{
 }
 
 .formulario select{
+    font-family: "Montserrat", serif;
+    font-size: 12px;
+    color: #737373;
     width: 100%;
     border-radius: 10px;
     border: none;
@@ -692,21 +718,16 @@ video{
 
 .formulario-marca-modelo{
     display: flex;
-    
+    justify-content: space-between;
+
 }
 
-.formulario-marca-modelo label{
-    display: inline;
-}
-
-.formulario-marca-modelo input{
-    display: block;
-    width: 100%;
-    
+.formulario-marca{
+    width: 49%;
 }
 
 .formulario-modelo{
-    border: 1px solid red;
+    width: 49%;
 }
 
 /********************************************************************************************************************************************/
@@ -715,5 +736,5 @@ video{
 
 footer{
     background-color: #141212;
-    
+    height: 600px;
 }
