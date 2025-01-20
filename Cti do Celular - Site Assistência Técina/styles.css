@@ -92,6 +92,12 @@ header{
     font-size: 22px;
     font-weight: 600;
 }
+
+.logo img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
 /********************************************************************************************************************************************/
 
 /*estilização da seção banner-inicial*/
@@ -736,5 +742,61 @@ video{
 
 footer{
     background-color: #141212;
-    height: 600px;
+    padding: 60px 0 60px 0;
+}
+
+.footer-lists{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #EBEBEB;
+}
+
+.footer-lists h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-lists ul{
+    list-style: none;
+}
+
+.footer-resumo{
+    width: 20%;
+    font-style: italic;
+}
+
+.footer-pagamentos{
+    margin: 60px 0 30px 0;
+}
+
+.footer-pagamentos img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.footer-pagamentos-icons{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #EBEBEB;
+    border-radius: 30px;
+    padding: 10px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.footer-logo{
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+.footer-logo img{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.footer-registro{
+    font-size: 16px;
+    color: #EBEBEB;
+    text-align: center;
 }
