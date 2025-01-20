@@ -45,6 +45,8 @@
         </div><!--container-->
     </header><!--header-->
 
+    <a class="fixed-button" role="button" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+
     <section class="banner-inicial">
         <div class="conteudo-banner w60">
             <div class="conteudo-banner-text">
@@ -141,9 +143,9 @@
     <section class="nossas-unidades">
         <h2>NOSSAS UNIDADES</h2>
         <div class="unidades">
-            <div class="unidades-individual-fundo">
-                <div class="unidades-individual-img-bg-morumbi">
-                    <div class="overlay">
+            <div class="unidades-individual-fundo-fechada">
+                <div class="unidades-individual-img-bg-morumbi-fechada">
+                    <div class="overlay-fechada">
                         <div class="unidades-individual-conteudo">
                             <h4>MORUMBI SHOPPING</h4>
                             <button class="botao-preto-branco">
@@ -155,15 +157,47 @@
                         </div><!--unidades-individual-conteudo-->
                     </div><!--overlay-->
                 </div><!--unidades-individual-img-bg-->
-            </div><!--unidades-individual-->
+            </div><!--unidades-individual-fundo-fechada-->
 
-            <div class="unidades-individual-fundo">
-                <div class="unidades-individual-img-bg-parque">
-                    <div class="overlay">
+            <div class="unidades-individual-fundo-aberta" hidden>
+                <div class="unidades-individual-img-bg-morumbi-aberta">
+                    <div class="overlay-aberta">
+                        <div class="unidades-individual-conteudo">
+                            <h4>MORUMBI SHOPPING</h4>
+                            <button class="botao-preto-branco">
+                                <div class="arrow-icons hover">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </div><!--arrow-icons-->
+                            </button><!--botao-preto-branco-->
+                        </div><!--unidades-individual-conteudo-->
+                    </div><!--overlay-->
+                </div><!--unidades-individual-img-bg-->
+
+                <div class="unidades-individual-descricao">
+                    <div class="unidades-individual-descricao-conteudo">
+                        <h4>Endereço:</h4>
+                        <h5>Av. Roque Petroni JR, 1089</h5>
+                        <p>Piso G3 | Subindo em frente a Renner</p>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.4692114351396!2d-46.701410124157825!3d-23.62336177875723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50c4a726aaab%3A0xa6b37701be082ac8!2sMorumbi%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1737407552890!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                        <div class="unidades-individual-descricao-botoes">
+                            <a class="uber-button" href="#" role="button">Ir de Uber <i class="fa-brands fa-uber"></i></a>
+                            <a class="waze-button" href="#" role="button">Abrir Waze <i class="fa-brands fa-waze"></i></a>
+                        </div><!--unidades-individual-descricao-botoes-->
+
+                    </div><!--unidades-individual-descricao-conteudo-->
+                </div><!--unidades-individual-descricao-->
+            </div><!--unidades-individual-fundo-aberta-->
+
+            <div class="unidades-individual-fundo-fechada">
+                <div class="unidades-individual-img-bg-parque-fechada">
+                    <div class="overlay-fechada">
                         <div class="unidades-individual-conteudo">
                             <h4>SHOPPING PARQUE DA CIDADE</h4>
                             <button class="botao-preto-branco">
-                                <div class="arrow-icons">
+                                <div class="arrow-icons hover">
                                     <i class="fa-solid fa-chevron-down"></i>
                                     <i class="fa-solid fa-chevron-down"></i>
                                 </div><!--arrow-icons-->
@@ -171,15 +205,47 @@
                         </div><!--unidades-individual-conteudo-->
                     </div><!--overlay-->
                 </div><!--unidades-individual-img-bg-->
-            </div><!--unidades-individual-->
+            </div><!--unidades-individual-fundo-fechada-->
 
-            <div class="unidades-individual-fundo">
-                <div class="unidades-individual-img-bg-nacoes">
-                    <div class="overlay">
+            <div class="unidades-individual-fundo-aberta" hidden>
+                <div class="unidades-individual-img-bg-parque-aberta">
+                    <div class="overlay-aberta">
+                        <div class="unidades-individual-conteudo">
+                            <h4>SHOPPING PARQUE DA CIDADE</h4>
+                            <button class="botao-preto-branco">
+                                <div class="arrow-icons hover">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </div><!--arrow-icons-->
+                            </button><!--botao-preto-branco-->
+                        </div><!--unidades-individual-conteudo-->
+                    </div><!--overlay-->
+                </div><!--unidades-individual-img-bg-->
+
+                <div class="unidades-individual-descricao">
+                    <div class="unidades-individual-descricao-conteudo">
+                        <h4>Endereço:</h4>
+                        <h5>Av. das Nações Unidas, 14401</h5>
+                        <p>Piso Térreo</p>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.4135201917743!2d-46.70862402415789!3d-23.625357478755976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5737126368f5%3A0x3b9e9f476725f94b!2sShopping%20Parque%20da%20Cidade!5e0!3m2!1spt-BR!2sbr!4v1737410299102!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                        <div class="unidades-individual-descricao-botoes">
+                            <a class="uber-button" href="#" role="button">Ir de Uber <i class="fa-brands fa-uber"></i></a>
+                            <a class="waze-button" href="#" role="button">Abrir Waze <i class="fa-brands fa-waze"></i></a>
+                        </div><!--unidades-individual-descricao-botoes-->
+
+                    </div><!--unidades-individual-descricao-conteudo-->
+                </div><!--unidades-individual-descricao-->
+            </div><!--unidades-individual-fundo-aberta-->
+
+            <div class="unidades-individual-fundo-fechada">
+                <div class="unidades-individual-img-bg-nacoes-fechada">
+                    <div class="overlay-fechada">
                         <div class="unidades-individual-conteudo">
                             <h4>SHOPPING NAÇÕES UNIDAS</h4>
                             <button class="botao-preto-branco">
-                                <div class="arrow-icons">
+                                <div class="arrow-icons hover">
                                     <i class="fa-solid fa-chevron-down"></i>
                                     <i class="fa-solid fa-chevron-down"></i>
                                 </div><!--arrow-icons-->
@@ -187,7 +253,39 @@
                         </div><!--unidades-individual-conteudo-->
                     </div><!--overlay-->
                 </div><!--unidades-individual-img-bg-->
-            </div><!--unidades-individual-->
+            </div><!--unidades-individual-fundo-fechada-->
+
+            <div class="unidades-individual-fundo-aberta" hidden>
+                <div class="unidades-individual-img-bg-nacoes-aberta">
+                    <div class="overlay-aberta">
+                        <div class="unidades-individual-conteudo">
+                            <h4>SHOPPING NAÇÕES UNIDAS</h4>
+                            <button class="botao-preto-branco">
+                                <div class="arrow-icons hover">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </div><!--arrow-icons-->
+                            </button><!--botao-preto-branco-->
+                        </div><!--unidades-individual-conteudo-->
+                    </div><!--overlay-->
+                </div><!--unidades-individual-img-bg-->
+
+                <div class="unidades-individual-descricao">
+                    <div class="unidades-individual-descricao-conteudo">
+                        <h4>Endereço:</h4>
+                        <h5>Av. das Nações Unidas, 12901</h5>
+                        <p>Piso Térreo | Em frente ao Banco Bradesco</p>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.8272127101814!2d-46.69975612415821!3d-23.61052897876615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50cd1a4cd8ef%3A0x92e30a024ac8b621!2sShopping%20Na%C3%A7%C3%B5es%20Unidas!5e0!3m2!1spt-BR!2sbr!4v1737410608979!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                        <div class="unidades-individual-descricao-botoes">
+                            <a class="uber-button" href="#" role="button">Ir de Uber <i class="fa-brands fa-uber"></i></a>
+                            <a class="waze-button" href="#" role="button">Abrir Waze <i class="fa-brands fa-waze"></i></a>
+                        </div><!--unidades-individual-descricao-botoes-->
+
+                    </div><!--unidades-individual-descricao-conteudo-->
+                </div><!--unidades-individual-descricao-->
+            </div><!--unidades-individual-fundo-aberta-->
         </div><!--unidades-->
 
         <div class="nossas-unidades-conteudo">
@@ -363,28 +461,28 @@
         <div class="perguntas">
             <div class="perguntas-individual">
                 <h3>Meu celular precisa ser zerado (formatado) para que o conserto seja efetuado?</h3>
-                <div class="respostas">
+                <div class="respostas" hidden>
                     <p>NÃO! Na <span>maioria</span> dos casos de consertos não é necessário que o aparelho seja formatado.</p>
                 </div><!--respostas-->
             </div><!--perguntas-individual-->
 
             <div class="perguntas-individual">
                 <h3>Meu celular precisa ser zerado (formatado) para que o conserto seja efetuado?</h3>
-                <div class="respostas">
+                <div class="respostas" hidden>
                     <p>NÃO! Na <span>maioria</span> dos casos de consertos não é necessário que o aparelho seja formatado.</p>
                 </div><!--respostas-->
             </div><!--perguntas-individual-->
 
             <div class="perguntas-individual">
                 <h3>Meu celular precisa ser zerado (formatado) para que o conserto seja efetuado?</h3>
-                <div class="respostas">
+                <div class="respostas" hidden>
                     <p>NÃO! Na <span>maioria</span> dos casos de consertos não é necessário que o aparelho seja formatado.</p>
                 </div><!--respostas-->
             </div><!--perguntas-individual-->
 
             <div class="perguntas-individual">
                 <h3>Meu celular precisa ser zerado (formatado) para que o conserto seja efetuado?</h3>
-                <div class="respostas">
+                <div class="respostas" hidden>
                     <p>NÃO! Na <span>maioria</span> dos casos de consertos não é necessário que o aparelho seja formatado.</p>
                 </div><!--respostas-->
             </div><!--perguntas-individual-->
