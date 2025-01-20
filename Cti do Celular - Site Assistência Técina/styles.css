@@ -302,7 +302,7 @@ header{
     font-weight: 800;
     text-align: center;
     color: #5271ff;
-    padding-top: 30px;
+    padding-top: 60px;
     margin-bottom: 60px;
 }
 
@@ -438,7 +438,6 @@ header{
     width: 95%;
     margin: 0 auto;
     background-color: #737373;
-    border-radius: 30px;
     margin-bottom: 60px;
     padding: 30px;
 }
@@ -489,7 +488,6 @@ header{
     background-color: #5271ff;
     width: 100%;
     text-align: center;
-    margin-bottom: 60px;
     padding: 30px;
 }
 
@@ -498,15 +496,11 @@ header{
     font-weight: 800;
     text-align: center;
     color: #EBEBEB;
-}
-
-.avaliacoes-de-usuarios-tudo{
-    display: flex;
+    padding-top: 60px;
 }
 
 .avaliacoes-apresentacao{
     display: flex;
-    flex-direction: column;
     justify-content:space-evenly;
     align-items: center;
 }
@@ -528,6 +522,9 @@ header{
 }
 
 .avaliacoes-estrelas-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #EBEBEB;
     padding: 10px;
     border-radius: 30px;
@@ -539,32 +536,62 @@ header{
     font-size: 30px;
 }
 
-.avaliacoes-video-descricao{
+.avaliacoes-nota-descricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.avaliacoes-nota-descricao img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.avaliacoes-video-titulo{
     text-align: center;
     color: #EBEBEB;
-    background-color: #141212;
-    width: 99%;
+    width: 45%;
     padding: 10px;
+    margin: 0 auto;
     border-radius: 10px 10px 0 0;
 }
 
-.avaliacoes-video-descricao h4{
+.avaliacoes-video-titulo h4{
     font-weight: normal;
-}
-
-.avaliacoes-video-descricao h5{
-    font-weight: lighter;
-    color: #5ec57e;
+    text-align: center;
 }
 
 .avaliacoes-video{
     margin-right: 30px;
     padding: 20px 0 0 0;
-    text-align: left;
+    text-align: center;
+}
+
+video{
+    width: 95%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.avaliacoes-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .avaliacoes-motivacoes{
+    font-family: "Lato", serif;
+    font-size: 18px;
+    font-style: italic;
     text-align: left;
+    color: #EBEBEB;
+}
+
+.avaliacoes-motivacoes i{
+    color: #ECC440;
+    font-size: 18px;
 }
 
 .avaliacoes{
@@ -577,13 +604,14 @@ header{
 .avaliacoes-individual{
     background-color: #EBEBEB;
     border-radius: 30px;
-    width: 250px;
+    width: 300px;
 }
 
 .avaliacoes-individual-comentario{
     border-bottom: 1px solid #737373;
     font-size: 14px;
     font-weight: normal;
+    font-style: italic;
     padding: 20px;
 }
 
@@ -604,4 +632,88 @@ header{
 .avaliacoes-individual-google-icone i{
     color: red;
     padding: 10px;
+}
+
+/********************************************************************************************************************************************/
+
+/*estilizando a seção orcamento*/
+
+.orcamento{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.orcamento h2{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    color: #5ec57e;
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+
+.formulario{
+    background-color: #141212;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.formulario label{
+    display: block;
+    color: #EBEBEB;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.formulario input{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.formulario textarea{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.formulario select{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.formulario-marca-modelo{
+    display: flex;
+    
+}
+
+.formulario-marca-modelo label{
+    display: inline;
+}
+
+.formulario-marca-modelo input{
+    display: block;
+    width: 100%;
+    
+}
+
+.formulario-modelo{
+    border: 1px solid red;
+}
+
+/********************************************************************************************************************************************/
+
+/*estilização do footer*/
+
+footer{
+    background-color: #141212;
+    
 }
