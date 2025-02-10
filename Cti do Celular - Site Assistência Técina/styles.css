@@ -38,6 +38,11 @@ body{
     font-size: 38px;
 }
 
+.hide{
+    display: none;
+    transition: 3s;
+}
+
 .w1-3{
     width: 33.3%;
 }
@@ -182,6 +187,7 @@ header{
     padding: 20px;
     border-radius: 30px;
     border: none;
+    cursor: pointer;
 }
 .botao-azul-branco{
     color: #ebebeb;
@@ -193,6 +199,7 @@ header{
     margin-right: 5px;
     border-radius: 30px;
     border: none;
+    cursor: pointer;
 }
 /********************************************************************************************************************************************/
 
@@ -339,6 +346,10 @@ header{
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+}
+
+.unidades-individual-fundo-fechada{
+    transition: 3s;
 }
 
 .unidades-individual-img-bg-morumbi-fechada{
@@ -500,6 +511,7 @@ header{
     border-radius: 30px;
     padding: 15px 30px 15px 30px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .botao-preto-branco i{
@@ -543,6 +555,10 @@ header{
     display: flex;
     text-align: left;
     margin-bottom: 60px;
+}
+
+.unidades-individual-fundo-fechada{
+    transition: 3s;
 }
 
 /********************************************************************************************************************************************/
@@ -782,6 +798,7 @@ video{
     border-radius: 10px;
     background-color: #5ec57e;
     color: #EBEBEB;
+    cursor: pointer;
 }
 
 .formulario{
