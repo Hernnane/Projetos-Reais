@@ -1,0 +1,78 @@
+/*reset padrão*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilizações gerais*/
+body{
+    background-color: #F6F6F6;
+    font-family: "Montserrat", serif;
+}
+
+.container{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.fixed-button{
+    position: fixed;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    background-color: #5ec57e;
+    color: #EBEBEB  ;
+    padding: 20px;
+    border-radius: 90px;
+    width: 100px;
+
+    top: 700px;
+    left: 1400px;
+    z-index: 10;
+}
+
+.fixed-button i{
+    font-size: 38px;
+}
+
+.hide{
+    display: none;
+    transition: 3s;
+}
+
+.w1-3{
+    width: 33.3%;
+}
+
+.w100{
+    width: 100%;
+}
+.w90{
+    width: 90%;
+}
+.w80{
+    width: 80%;
+}
+.w70{
+    width: 70%;
+}
+.w60{
+    width: 60%;
+}
+.w50{
+    width: 50%;
+}
+.w40{
+    width: 40%;
+}
+.w30{
+    width: 30%;
+}
+.w20{
+    width: 20%;
+}
+.w10{
+    width: 10%;
+}

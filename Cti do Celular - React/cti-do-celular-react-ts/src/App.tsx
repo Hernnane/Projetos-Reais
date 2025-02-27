@@ -1,10 +1,5 @@
-
+import { AppRoutes } from "./routes";
 
 export function App() {
-
-  return (
-    <>
-      Teste
-    </>
-  )
+  return <AppRoutes />
 }

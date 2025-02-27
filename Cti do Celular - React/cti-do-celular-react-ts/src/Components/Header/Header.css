@@ -1,0 +1,43 @@
+/*estilização do menu*/
+header{
+    padding: 6px;
+    background-color: #ebebeb;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-items a{
+    font-size: 11px;
+    color: #737373;
+    text-decoration: none;
+}
+.menu-items a:hover{
+    color: #141212;
+    font-weight: 600;
+}
+
+.menu-items span{
+    color: #737373;
+    font-weight: lighter;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.logo a{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.logo img{
+    max-width: 50px;
+    max-height: 50px;
+}
